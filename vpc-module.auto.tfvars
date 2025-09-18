@@ -1,0 +1,23 @@
+# VPC1 Variables
+vpc_name_vpc1                               = "VPC-1"
+vpc_cidr_block_vpc1                         = "10.0.0.0/16"
+vpc_availability_zones_vpc1                 = ["eu-west-1a", "eu-west-1b"]
+vpc_public_subnets_vpc1                     = ["10.0.101.0/24", "10.0.102.0/24"]
+vpc_private_subnets_vpc1                    = ["10.0.1.0/24", "10.0.2.0/24"]
+vpc_database_subnets_vpc1                   = ["10.0.151.0/24", "10.0.152.0/24"]
+vpc_create_database_subnet_group_vpc1       = false
+vpc_create_database_subnet_route_table_vpc1 = false
+vpc_enable_nat_gateway_vpc1                 = false
+vpc_single_nat_gateway_vpc1                 = true
+
+# VPC2 Variables
+vpc_name_vpc2                               = "VPC-2"
+vpc_cidr_block_vpc2                         = "20.0.0.0/16"
+vpc_availability_zones_vpc2                 = ["eu-west-1a", "eu-west-1b"]
+vpc_public_subnets_vpc2                     = ["20.0.101.0/24", "20.0.102.0/24"]
+vpc_private_subnets_vpc2                    = ["20.0.1.0/24", "20.0.2.0/24"]
+vpc_database_subnets_vpc2                   = ["20.0.151.0/24", "20.0.152.0/24"]
+vpc_create_database_subnet_group_vpc2       = false
+vpc_create_database_subnet_route_table_vpc2 = false
+vpc_enable_nat_gateway_vpc2                 = false
+vpc_single_nat_gateway_vpc2                 = true
