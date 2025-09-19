@@ -9,10 +9,10 @@ module "vpc1" {
   azs              = var.vpc_availability_zones_vpc1
   public_subnets   = var.vpc_public_subnets_vpc1
   private_subnets  = var.vpc_private_subnets_vpc1
-  database_subnets = var.vpc_database_subnets_vpc1
+ // database_subnets = var.vpc_database_subnets_vpc1
 
-  create_database_subnet_group       = var.vpc_create_database_subnet_group_vpc1
-  create_database_subnet_route_table = var.vpc_create_database_subnet_route_table_vpc1
+ // create_database_subnet_group       = var.vpc_create_database_subnet_group_vpc1
+  //create_database_subnet_route_table = var.vpc_create_database_subnet_route_table_vpc1
   manage_default_network_acl         = false
   manage_default_route_table         = false
   manage_default_security_group      = false
@@ -43,12 +43,12 @@ module "vpc2" {
   cidr = var.vpc_cidr_block_vpc2
 
   azs              = var.vpc_availability_zones_vpc2
-  public_subnets   = var.vpc_public_subnets_vpc2
+  //public_subnets   = var.vpc_public_subnets_vpc2
   private_subnets  = var.vpc_private_subnets_vpc2
-  database_subnets = var.vpc_database_subnets_vpc2
+  //database_subnets = var.vpc_database_subnets_vpc2
 
-  create_database_subnet_group       = var.vpc_create_database_subnet_group_vpc2
-  create_database_subnet_route_table = var.vpc_create_database_subnet_route_table_vpc2
+  //create_database_subnet_group       = var.vpc_create_database_subnet_group_vpc2
+  //create_database_subnet_route_table = var.vpc_create_database_subnet_route_table_vpc2
   manage_default_network_acl         = false
   manage_default_route_table         = false
   manage_default_security_group      = false
