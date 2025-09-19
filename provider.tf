@@ -1,8 +1,8 @@
 terraform {
   backend "s3" {
-    bucket       = "terraform-practice-lzb-001"
+    bucket       = "terraform-bucket-lzb-001"
     key          = "vpc/terraform.tfstate"
-    region       = "eu-west-1"
+    region       = "ap-south-1"
     use_lockfile = true
 
   }

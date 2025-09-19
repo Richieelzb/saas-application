@@ -1,7 +1,7 @@
 # VPC1 Variables
 vpc_name_vpc1               = "VPC-1"
 vpc_cidr_block_vpc1         = "10.0.0.0/16"
-vpc_availability_zones_vpc1 = ["eu-west-1a"]
+vpc_availability_zones_vpc1 = ["ap-south-1a"]
 vpc_public_subnets_vpc1     = ["10.0.101.0/24"]
 vpc_private_subnets_vpc1    = ["10.0.1.0/24"]
 vpc_database_subnets_vpc1                   = ["10.0.151.0/24"]
@@ -13,7 +13,7 @@ vpc_single_nat_gateway_vpc1                 = true
 # VPC2 Variables
 vpc_name_vpc2               = "VPC-2"
 vpc_cidr_block_vpc2         = "20.0.0.0/16"
-vpc_availability_zones_vpc2 = ["eu-west-1a"]
+vpc_availability_zones_vpc2 = ["ap-south-1a"]
 vpc_public_subnets_vpc2     = ["20.0.101.0/24"]
 vpc_private_subnets_vpc2    = ["20.0.1.0/24",]
 vpc_database_subnets_vpc2                   = ["20.0.151.0/24"]

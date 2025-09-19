@@ -6,7 +6,7 @@ variable "instance-type-list" {
 }
 
 variable "key-pair" {
-  default = "lupfumo-key"
+  default = "lupfumo-key-mumbai"
 }
 
 ///VPC Modules-1 ///////////////////////////////////////////////////////////////////////////
@@ -98,15 +98,15 @@ variable "vpc_single_nat_gateway_vpc2" {
 
 //////generic/////////////////////////////
 variable "aws-region" {
-  default = "eu-west-1"
+  default = "ap-south-1"
 }
 
 variable "environment" {
   type    = string
-  default = "Development"
+  default = "dev"
 }
 
 variable "business-division" {
   type    = string
-  default = "IT"
+  default = "vodacom"
 }
