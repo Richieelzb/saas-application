@@ -2,7 +2,7 @@
 
 variable "instance-type-list" {
   type    = list(string)
-  default = ["t3.micro", "t3.small", "t3.large"]
+  default = ["t3.micro", "t3.medium", "t3.large"]
 }
 
 variable "key-pair" {
@@ -108,5 +108,5 @@ variable "environment" {
 
 variable "business-division" {
   type    = string
-  default = "vodacom"
+  default = "sandalzi"
 }
