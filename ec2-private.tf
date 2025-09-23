@@ -20,7 +20,7 @@ resource "aws_instance" "ec2-private-vpc2" {
   subnet_id = module.vpc2.private_subnets[0]
   // user_data              = file("${path.module}/app-install.sh") 
   vpc_security_group_ids = [aws_security_group.private-sg-vpc2.id]
-  count                  = 1
+  count                  = 2
   tags = {
     Name = "ec2-private-vpc2"
   }
