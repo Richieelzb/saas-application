@@ -5,8 +5,8 @@ phases:
     runtime-versions:
       python: 3.8
     commands:
-      - curl -O https://releases.hashicorp.com/terraform/1.5.7/terraform_1.5.7_linux_amd64.zip
-      - unzip terraform_1.5.7_linux_amd64.zip
+      - curl -O https://releases.hashicorp.com/terraform/1.5.7/terraform_1.13.3_linux_amd64.zip
+      - unzip terraform_1.13.3_linux_amd64.zip
       - mv terraform /usr/local/bin/
   pre_build:
     commands:
